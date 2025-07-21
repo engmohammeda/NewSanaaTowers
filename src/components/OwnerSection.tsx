@@ -27,8 +27,9 @@ export function OwnerSection() {
           {/* Owner Image & Info */}
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-luxury">
+              {/* تم تعديل مسار الصورة هنا */}
               <img 
-                src="/lovable-uploads/c9328e19-c2fb-4f2d-9637-2f4842bbc313.png"
+                src={import.meta.env.BASE_URL + "assets/images/owner-profile.png"}
                 alt="مالك شركة أبراج صنعاء الجديدة للعقارات"
                 className="w-full h-auto object-cover"
               />
