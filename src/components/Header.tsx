@@ -36,11 +36,11 @@ export function Header() {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2 text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>+967 123 456 789</span>
+              <span>+967 771201197</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="w-4 h-4" />
-              <span>info@sanaa-estates.com</span>
+              <span>mohammedalbkhyty@gmail.com</span>
             </div>
           </div>
           

@@ -20,19 +20,19 @@ export function ContactSection() {
     {
       icon: Phone,
       title: "اتصل بنا",
-      details: ["+967 123 456 789", "+966 50 123 4567"],
+      details: ["+967 771201197", "واتساب: +967 771201197"],
       description: "متاح 24/7 للاستفسارات العاجلة"
     },
     {
       icon: Mail,
       title: "البريد الإلكتروني",
-      details: ["info@sanaa-estates.com", "sales@sanaa-estates.com"],
+      details: ["mohammedalbkhyty@gmail.com", "استفسارات@ابراج-صنعاء.com"],
       description: "نرد خلال ساعة واحدة"
     },
     {
       icon: MapPin,
       title: "موقعنا",
-      details: ["صنعاء الجديدة - شارع الستين", "مجمع أبراج الذهب - الطابق 12"],
+      details: ["اليمن - صنعاء - سعوان", "شارع النصر - مقابل البنك المركزي"],
       description: "زورنا في مكتبنا الرئيسي"
     },
     {
@@ -87,7 +87,7 @@ export function ContactSection() {
                     <div>
                       <label className="block text-white/90 mb-2 font-medium">رقم الهاتف</label>
                       <Input 
-                        placeholder="+967 123 456 789"
+                        placeholder="+967 771201197"
                         className="bg-white/10 border-white/30 text-white placeholder:text-white/60 focus:bg-white/20"
                       />
                     </div>
@@ -119,10 +119,10 @@ export function ContactSection() {
                       <label className="block text-white/90 mb-2 font-medium">الميزانية المتوقعة</label>
                       <select className="w-full p-3 rounded-lg bg-white/10 border border-white/30 text-white focus:bg-white/20 focus:ring-2 focus:ring-primary">
                         <option value="">حدد الميزانية</option>
-                        <option value="50-100">50-100 مليون ريال</option>
-                        <option value="100-500">100-500 مليون ريال</option>
-                        <option value="500-1000">500 مليون - 1 مليار</option>
-                        <option value="1000+">أكثر من 1 مليار</option>
+                        <option value="10-50">10-50 مليون ريال يمني</option>
+                        <option value="50-100">50-100 مليون ريال يمني</option>
+                        <option value="100-500">100-500 مليون ريال يمني</option>
+                        <option value="500+">أكثر من 500 مليون ريال يمني</option>
                       </select>
                     </div>
                   </div>
@@ -199,14 +199,18 @@ export function ContactSection() {
                 للاستفسارات العاجلة والصفقات السريعة - متاح 24/7
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                  <Phone className="w-4 h-4 ml-2" />
-                  +967 777 888 999
-                </Button>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                  <MessageCircle className="w-4 h-4 ml-2" />
-                  واتساب فوري
-                </Button>
+                <a href="tel:+967771201197">
+                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                    <Phone className="w-4 h-4 ml-2" />
+                    +967 771201197
+                  </Button>
+                </a>
+                <a href="https://wa.me/967772791169" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
+                    <MessageCircle className="w-4 h-4 ml-2" />
+                    واتساب: محمد البخيتي
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
